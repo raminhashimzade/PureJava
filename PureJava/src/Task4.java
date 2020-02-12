@@ -109,7 +109,8 @@ public class Task4 {
         	System.out.println(myFile.getPath() + "   sec = " + sec);
 		}
         
-        System.out.println(sec);        
+        System.out.println(sec);      
+        scanner.close();
 	}
 	
 	private static List<String> InputLines() throws IOException {

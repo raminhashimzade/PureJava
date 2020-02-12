@@ -24,6 +24,7 @@ public class Task3OK {
 		for (int i = 1; i <= n; i++) {
 			System.out.print(p[i] + " ");
 		}
+		scanner.close();
 	}
 
 	private static void reCalcSum(int[] a, int pos) {

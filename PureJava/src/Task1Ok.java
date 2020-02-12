@@ -22,5 +22,6 @@ public class Task1Ok {
 			}
 		}
 		System.out.println(min);
+		scanner.close();
 	}
 }
