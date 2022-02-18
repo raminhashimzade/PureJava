@@ -8,7 +8,7 @@ public class CodilityTask3 {
 		boolean contentStreamIsnull = false;
 		String[] names = {"Al", "Ankit", "Kushal", "Brent", "Sarika", "amanda", "Hans", "Shivika", "Sarah", null};
 		
-		System.out.println(Stream.of(names).filter(Objects::isNull).isPresent());
+		//System.out.println(Stream.of(names).filter(Objects::isNull).isPresent());
 		
 		
 		//Stream<Stream<String>> s;
