@@ -9,7 +9,12 @@ public class TopTalTest {
 		
 		float qaliq = M-P;
 		
-		float[] d = {1,(float)0.5,(float)0.25,(float)0.1,(float)0.05,(float)0.01};
+		float[] d = {(float)1,
+					 (float)0.5,
+					 (float)0.25,
+					 (float)0.1,
+					 (float)0.05,
+					 (float)0.01};
 		List<Integer> result = new ArrayList<Integer>(); 
 		
 			
